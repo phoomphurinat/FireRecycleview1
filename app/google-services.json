@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "827612192334",
+    "firebase_url": "https://firerecycleview1.firebaseio.com",
+    "project_id": "firerecycleview1",
+    "storage_bucket": "firerecycleview1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827612192334:android:c28e866bff389e0e",
+        "android_client_info": {
+          "package_name": "com.example.phurinat.firerecycleview1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827612192334-i1p03gi67eeg4gv4ok28qai6g4ncl3c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phurinat.firerecycleview1",
+            "certificate_hash": "7a93279c4a5c9479ed070c35a85dc01d0cdc4d83"
+          }
+        },
+        {
+          "client_id": "827612192334-o9812f0u9ocfnblgum06meagap0abmuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDunbogNTT3U8Fgs_0bHiCIco83bs3FVuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827612192334-o9812f0u9ocfnblgum06meagap0abmuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

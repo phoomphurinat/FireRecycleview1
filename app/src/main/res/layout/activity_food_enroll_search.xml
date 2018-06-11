@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodEnrollSearch"
+    tools:layout_editor_absoluteY="89dp">
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="0dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Search name of ingredients to be enrolled"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/search_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/search_field"
+        app:layout_constraintTop_toTopOf="@+id/search_field"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/result_list"
+        android:layout_width="585dp"
+        android:layout_height="648dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="169dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
